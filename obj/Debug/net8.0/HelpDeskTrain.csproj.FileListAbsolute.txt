@@ -1,0 +1,8 @@
+C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.AssemblyInfoInputs.cache
+C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.AssemblyInfo.cs
+C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.sourcelink.json
+C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.RazorAssemblyInfo.cache
+C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.RazorAssemblyInfo.cs

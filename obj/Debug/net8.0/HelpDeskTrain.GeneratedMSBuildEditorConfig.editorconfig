@@ -17,3 +17,11 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Иван/Desktop/Новая папка/web/HelpDeskTrain/HelpDeskTrain/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = TG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Иван/Desktop/Новая папка/web/HelpDeskTrain/HelpDeskTrain/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
