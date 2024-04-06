@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
+//using System.Data.Entity;
 using System.Data;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
+//using System.Web.Mvc;
+using Microsoft.EntityFrameworkCore;
 using HelpDeskTrain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

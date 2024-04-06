@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
-using System.Web.Security;
+using Microsoft.EntityFrameworkCore;
+//using System.Web.Mvc;
+//using System.Web.Security;
 using HelpDeskTrain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

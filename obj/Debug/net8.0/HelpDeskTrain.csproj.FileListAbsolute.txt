@@ -6,3 +6,4 @@ C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\
 C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.sourcelink.json
 C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.RazorAssemblyInfo.cache
 C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.RazorAssemblyInfo.cs
+C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain\obj\Debug\net8.0\HelpDeskTrain.csproj.AssemblyReference.cache
