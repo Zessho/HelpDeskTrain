@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Web;
-//using System.Web.Mvc;
+using System.Web.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HelpDeskTrain.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -16,9 +16,15 @@ namespace HelpDeskTrain.Controllers
     public class UserController : Controller
     {
         private HelpdeskContext db = new HelpdeskContext();
+       [Route("User/Index")]
+        /*public IActionResult Index()
+       {
+           return View("Index");
+       }
 
+       */
         [HttpGet]
-        public ActionResult Index()
+        public IActionResult Index()
         {
             var users = db.Users.Include(u => u.Department).Include(u => u.Role).ToList();
             return View(users);

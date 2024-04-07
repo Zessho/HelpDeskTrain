@@ -1,5 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Data;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 
 namespace HelpDeskTrain.Models
 {

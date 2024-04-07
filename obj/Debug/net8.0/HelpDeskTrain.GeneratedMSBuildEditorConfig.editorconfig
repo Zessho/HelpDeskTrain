@@ -18,10 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Иван\Desktop\Новая папка\web\HelpDeskTrain\HelpDeskTrain
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Иван/Desktop/Новая папка/web/HelpDeskTrain/HelpDeskTrain/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
+[C:/Users/Иван/Desktop/Новая папка/web/HelpDeskTrain/HelpDeskTrain/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Иван/Desktop/Новая папка/web/HelpDeskTrain/HelpDeskTrain/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TG9naW4uY3NodG1s
+[C:/Users/Иван/Desktop/Новая папка/web/HelpDeskTrain/HelpDeskTrain/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

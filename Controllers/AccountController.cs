@@ -1,31 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Microsoft.EntityFrameworkCore;
-//using System.Web.Mvc;
-//using System.Web.Security;
+﻿//using System.Web.UI;
+//using System.Web.UI.WebControls;
+//using System.Web.Security.FormsAuthentication;
 using HelpDeskTrain.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
+using System.Security.Claims;
+//using System.Web.UI.Page;
 
 namespace HelpDeskTrain.Controllers
 {
     [AllowAnonymous]
     public class AccountController : Controller
     {
-        public ActionResult Login()
+        // такой код для отрабатывания представлений
+        // Роут обязательно, View() передавать можно и название твоей вью и пустым оставить
+        // ну и модель как у тебя ниже в логин
+        [Route("Account/Login")]
+        /*public IActionResult Login()
         {
-            return View();
+            return View("login");
         }
-        [HttpPost]
-        public ActionResult Login(LogViewModel model, string returnUrl)
+        
+        [HttpPost]*/
+        public async Task<IActionResult> Login(LogViewModel model, string returnUrl)
         {
             if (ModelState.IsValid)
             {
                 if (ValidateUser(model.UserName, model.Password))
                 {
-                    FormsAuthentication.SetAuthCookie(model.UserName, model.RememberMe);
+                    var claims = new List<Claim>{
+                        new Claim(ClaimTypes.Name, model.UserName),
+                    };
+
+                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    await HttpContext.SignInAsync(
+                            CookieAuthenticationDefaults.AuthenticationScheme,
+                            new ClaimsPrincipal(claimsIdentity));
+                    //.SetAuthCookie(model.UserName, model.RememberMe);
                     if (Url.IsLocalUrl(returnUrl))
                     {
                         return Redirect(returnUrl);
@@ -42,9 +56,9 @@ namespace HelpDeskTrain.Controllers
             }
             return View(model);
         }
-        public ActionResult LogOff()
+        public async Task<IActionResult> LogOff()
         {
-            FormsAuthentication.SignOut();
+            await HttpContext.SignOutAsync();
 
             return RedirectToAction("Login", "Account");
         }

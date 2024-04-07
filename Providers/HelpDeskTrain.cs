@@ -6,7 +6,6 @@ using System.Web.Security;
 using System.Web.Helpers;
 using System.Web.WebPages;
 using Microsoft.Internal.Web.Utils;
-//using Microsoft.EntityFrameworkCore;
 using HelpDeskTrain.Models;
 
 namespace HelpDeskTrain.Providers

@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using System.Web;
 namespace HelpDeskTrain.Models
 {
     public class LogViewModel
